@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST TASK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/jquery/jquery.min.js"></script>
+    <script src="js/lib/jquery/jquery.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+   <div class="wrap">
+       <header class="header">
+           <!--navigation-->
+           <nav class="navbar navbar-default navbar-fixed-top">
+                   <div class="navigation">
+                       <div class="nav">
+                           <div class="row">
+                               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                                   <a class="nav__logo" href="#"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
+                               </div>
+                               <div class="col-sm-10 col-md-10 col-lg-10">
+                                   <div class="nav__menu">
+                                       <ul class="nav__menu__li">
+                                           <li><a href="#" id="menu0"></a></li>
+                                           <li><a href="#" id="menu1"></a></li>
+                                           <li><a href="#" id="menu2"></a></li>
+                                           <li><a href="#" id="menu3"></a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+               </div>
+           </nav>
+
+           <!--slider-->
+           <section class="regular slider">
+               <div><img src="img/slide_image.jpg">
+                   <h1 class="slider__title">the best <span class="slider__title__marker">solutions</span> starts here!</h1>
+               </div>
+               <div><img src="img/slide_image.jpg"></div>
+               <div><img src="img/slide_image.jpg"></div>
+           </section>
+       </header>
+            <!--about company-->
+       <section class="article__inform basic__width">
+           <div class="article__inform__title">
+               <p class="inform__title">About <span class="inform__title__marker">Company</span></p>
+           </div>
+           <div class="article__inform__content section__one">
+               <p class="inform__content" id="aboutus"></p>
+           </div>
+       </section>
+        <!--services-->
+       <section class="info__services__bg">
+           <div class="info__services basic__width">
+               <div class="info__services__title">
+                   <p class="inform__title">our <span class="inform__title__marker2">services</span></p>
+               </div>
+               <div class="article__inform__content section__two">
+                   <p id="aboutServices" class="inform__content info__content__color"></p>
+               </div>
+               <div class="row">
+                   <div class="col-xs-12 col-sm-6  col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-users fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices1" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-weixin fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices2" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="clearfix visible-xs"></div>
+                   <div class="col-xs-12 col-sm-6 col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-trophy fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices3" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-star fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices4" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-plane fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices5" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="clearfix visible-xs"></div>
+                   <div class="col-xs-12 col-sm-6 col-lg-4">
+                       <div class="some__service clearfix">
+                           <div class="some__service__icon">
+                               <i class="fa fa-graduation-cap fa__icon" aria-hidden="true"></i>
+                           </div>
+                           <div class="some__service__content">
+                               <p class="some__service__content__title">Some Service</p>
+                               <p id="someServices6" class="some__service__content__text"></p>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+       </section>
+       <!--blog & news-->
+       <section class="blog__news basic__width">
+           <div class="blog__news__title info__services__title">
+               <p class="inform__title">blog & <span class="inform__title__marker3">news</span></p>
+           </div>
+           <div class="blog__news__text article__inform__content section__three">
+               <p id="blogNews" class="inform__content blog__news__content__color"></p>
+           </div>
+           <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12  col-lg-6">
+                   <div class="blog__news__box1">
+                       <a class="blog__news__box1__img" href="#"><img  src="img/url.jpg" alt=""></a>
+                       <div class="blog__news__box1__bg">
+                           <p class="blog__news__box1__title">Featured News</p>
+                           <p id="newsBox1" class="blog__news__box1__text"></p>
+                       </div>
+                       <div class="blog__news__box1__background  date__bg">
+                           <p class="blog__news__box1__data  current__date">June 15, 2014</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-12  col-lg-6">
+                   <div class="blog__news__box2">
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-12 col-md-6">
+                               <div class="blog__news__box2_1">
+                                   <a class="blog__news__box2_1__img" href="#"><img src="img/autumn.jpg" alt=""></a>
+                                   <div class="blog__news__box2_1__bg">
+                                       <p class="blog__news__box2_1__title">some news title</p>
+                                   </div>
+                                   <div class="blog__news__box2_1__background  date__bg">
+                                       <p class="blog__news__box2_1__data  current__date">June 13, 2014</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-12 col-md-6">
+                               <div class="blog__news__box2_1">
+                                   <a class="blog__news__box2_1__img" href="#"><img src="img/flower.jpg" alt=""></a>
+                                   <div class="blog__news__box2_1__bg">
+                                       <p class="blog__news__box2_1__title">some news title</p>
+                                   </div>
+                                   <div class="blog__news__box2_1__background  date__bg">
+                                       <p class="blog__news__box2_1__data  current__date">June 13, 2014</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-12 col-md-6">
+                               <div class="blog__news__box2_1">
+                                   <a class="blog__news__box2_1__img" href="#"><img src="img/colors.jpg" alt=""></a>
+                                   <div class="blog__news__box2_1__bg">
+                                       <p class="blog__news__box2_1__title">some news title</p>
+                                   </div>
+                                   <div class="blog__news__box2_1__background  date__bg">
+                                       <p class="blog__news__box2_1__data  current__date">June 13, 2014</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-12 col-md-6">
+                               <div class="blog__news__box2_1">
+                                   <a class="blog__news__box2_1__img" href="#"><img src="img/pencil.jpg" alt=""></a>
+                                   <div class="blog__news__box2_1__bg">
+                                       <p class="blog__news__box2_1__title">some news title</p>
+                                   </div>
+                                   <div class="blog__news__box2_1__background  date__bg">
+                                       <p class="blog__news__box2_1__data  current__date">June 13, 2014</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--conact us-->
+       <section class="contact__bg">
+           <div class="contact__us  basic__width">
+               <div class="contact__title  article__inform__title">
+                   <p class="inform__title">contact <span class="contact__marker">us</span></p>
+               </div>
+               <div class="contact__text  article__inform__content section__four">
+                   <p id="contactUs" class="inform__content contact__content__color"></p>
+               </div>
+               <div class="contact__info">
+                   <div class="row">
+                       <div class="col-xs-12  col-sm-12 col-md-12  col-lg-7">
+                           <div class="contact__map">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.94855384145!2d36.22903681571485!3d49.99357397941494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f007c83ff9%3A0xdadb049c1820847c!2z0L_Quy4g0JrQvtC90YHRgtC40YLRg9GG0ZbRlywgMjEsINCl0LDRgNC60ZbQsiwg0KXQsNGA0LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1465760814224" width="676" height="208" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           </div>
+                       </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12  col-lg-5">
+                           <div class="contact__address">
+                               <div class="contact__address__name">
+                                   <p class="contact__address__name__title">Company Name</p>
+                               </div>
+                               <div class="row">
+                                   <div class="col-xs-12  col-md-6">
+                                       <div class="contact">
+                                          <p>13 Radnor Walk<br>London<br>SW3 4BP</p>
+                                       </div>
+                                   </div>
+                                   <div class="col-xs-12  col-md-6">
+                                       <div class="contact__phone">
+                                           <a href="tel:+4402075818313">+44(0) 207 581 8313</a>
+                                           <a href="tel:+4402076818314">+44(0) 207 681 8314</a>
+                                           <a href="mailto:enquiries@kasimira.com">enquiries@kasimira.com</a>
+                                        </div>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+   </div>
+    <!--footer-->
+   <footer class="footer ">
+       <div class="footer__info basic__width clearfix">
+           <div class="footer__logo">
+               <a class="footer__nav__logo" href="">Company <span class="footer__logo__marker">Name</span></a>
+           </div>
+           <ul class="footer__nav">
+               <li class="footer__nav__li"><a class="footer__nav__link" href="">Terms</a></li>
+               <li class="footer__nav__li"><a class="footer__nav__link" href="">Privacy</a></li>
+            </ul>
+           <div class="icons">
+               <div class="icons__fb icons__icon"></div>
+               <div class="icons__twitter icons__icon"></div>
+               <div class="icons__youtube icons__icon"></div>
+               <div class="icons__email icons__icon"></div>
+               <div class="icons__mail icons__icon"></div>
+           </div>
+           <div class="copyright">
+               <p class="copyright__title">Copyright © 2013 <a class="copyright__company" href="">Company Name.</a> All rights reserved</p>
+           </div>
+        </div>
+   </footer>
+</div>
+</body>
+</html>

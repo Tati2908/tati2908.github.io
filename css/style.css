@@ -1,0 +1,125 @@
+@import "../font-awesome/css/font-awesome.min.css";
+@import "../bootstrap/css/bootstrap.min.css";
+@import "stylesheet.css";
+/*Global Reset*/
+*{box-sizing: border-box; margin: 0; padding: 0;}
+img {vertical-align: middle;}
+li {list-style: none;}
+a {text-decoration: none;}
+/*basic style*/
+html, body {height: 100%;}
+body{font: 20px/28px "Open Sans", Arial; color: #555;}
+.wrapper{height: 100%; width: 100%; max-width: 1920px; min-width: 640px; margin: 0 auto; display: table; overflow: hidden; table-layout: fixed;}
+.wrap{height: 100%;  display: table-row; }
+a:hover{opacity: 0.8}
+/*navigation*/
+.navigation {max-width:1920px; margin: 0 auto; padding-top: 18px; padding-bottom: 8px; overflow: hidden; background: #000; border-bottom: 6px solid #00aba9;}
+.nav{max-width: 1170px; margin: 0 auto;}
+.navbar{border:none}
+.navbar-default{background: none; }
+.nav__logo{float: left;}
+.nav__logo img{max-width: 245px; margin-bottom: 10px}
+.nav__menu{padding-top: 15px; float: right;}
+.nav__menu__li{margin-bottom: 0}
+.nav__menu__li li{padding: 5px 0 0 41px; display: inline-block;}
+.nav__menu__li a{font-family: 'advent_probold'; font-size: 24px; color: #fff; text-decoration: none; text-transform: uppercase;}
+.nav__menu__li li:last-child{padding-right: 0;}
+.nav__menu__li li:first-child{padding-left: 0;}
+.nav__menu__li a:hover{color: #00ABA9; opacity: 1}
+/*slider*/
+.slick-slide img{width: 100%;}
+.slick-slider{position: relative; display: block; margin-top: 83px;}
+.slick-list {position: relative; display: block; overflow: hidden;}
+.slick-slide {display: none; float: left; height: 100%; position: relative;}
+.slick-slide img {display: block;}
+.slick-initialized .slick-slide {display: block;}
+.regular{border-bottom: 6px solid #00ABA9;}
+/* Arrows */
+.slick-prev, .slick-next{position: absolute; top: 47%; display: block; width: 40px; height: 40px; background: #00aba9; cursor: pointer; color: transparent; border: none; outline: none;}
+.slick-prev:before, .slick-next:before{font-size: 20px; color: white; display: inline-block;}
+.slick-prev{left: 10px;z-index: 50;}
+.slick-prev:before{content: '\2039'; font-size: 36px;}
+.slick-next{right: 10px;}
+.slick-next:before{content: '\203A'; font-size: 36px;}
+/*title for slider*/
+.slider__title{text-transform: uppercase; font-family: 'advent_promedium'; font-size: 72px; line-height: 40px; color: #00aba9; position: absolute; top: 41%; left: 22%;}
+.slider__title__marker{display: inline-block; padding: 21px; background: #00aba9; font-family: 'advent_probold'; color: #fff;}
+/*section about company*/
+.basic__width{max-width: 1170px; margin: 0 auto;}
+.article__inform__title, .info__services__title{padding-top: 100px;padding-bottom: 12px;}
+.inform__title{font-size: 38px; font-family: 'advent_probold'; color: #000; text-transform: uppercase; text-align: center;}
+.inform__title__marker{color: #00ABA9;}
+.article__inform__content{border-top: 1px solid #e9e9e9; padding-top: 23px;}
+.section__one{padding-bottom: 90px;}
+.inform__content{text-align: center;}
+/*services*/
+.info__services__bg{background: #00aba9;padding-bottom: 55px;}
+.inform__title__marker2{color: #fff;}
+.info__content__color{color: #fff;}
+.section__two{padding-bottom: 37px;}
+.some__service{width: 378px;margin-bottom: 35px;}
+.some__service__icon{width: 81px; height: 81px; background: url("../img/frame.png"); position: relative; float: left;}
+.fa__icon{font-size: 48px;color: #fff; position: absolute; top: 20%; left: 20%;}
+.some__service__content{width: 78%; float: left; padding-left: 20px;}
+.some__service__content__title{color: #000; font-size: 30px; font-family: 'advent_probold'; text-transform: uppercase; line-height: 20px;}
+.some__service__content__text{color: #fff; font-size: 16px; line-height: 20px;}
+/*blog & news*/
+.inform__title__marker3{color: #00aba9;}
+.section__three{padding-bottom: 34px;}
+/*big box with img in section blog & news*/
+.blog__news{padding-bottom: 82px;}
+.blog__news__box1{width: 576px; position: relative; margin-bottom: 19px;}
+.blog__news__box1__bg{padding-left: 15px; padding-bottom: 6px; background-color: rgba(0, 130, 135, 0.7); position: absolute; bottom: 4%;}
+.blog__news__box1__title{font-size: 30px; font-family: advent_probold; text-transform: uppercase; color: #000; padding-top: 15px; margin-bottom: 0;}
+.blog__news__box1__text{font-size: 16px; color: #fff; line-height: 20px;}
+.blog__news__box1__background{background-color: rgba(0, 0, 0, 0.7);}
+.current__date{font-size: 16px; font-family: 'advent_probold'; text-transform: uppercase; color: #fff; text-align: center; padding: 0 13px 0 16px; line-height: 26px; margin-bottom: 0;}
+/*small box with img in section blog & news*/
+.blog__news__box2{max-width: 576px;}
+.blog__news__box2_1{width: 279px; margin-bottom: 19px; position: relative;}
+.blog__news__box2_1__bg{padding: 4px 0 2px 15px; background-color: rgba(0, 0, 0, 0.7); width: 100%; position: absolute; bottom: 6%;}
+.blog__news__box2_1__title{font-size: 18px; font-family: advent_probold; text-transform: uppercase; color: #fff; margin-bottom: 0;}
+.blog__news__box2_1__background{background-color: rgba(0, 171, 169, 0.7);}
+.date__bg{position: absolute; top: 0; right: 0;}
+/*contact*/
+.contact__bg{background: url("../img/bg_contact.jpg");padding-bottom: 105px;border-bottom: 6px solid #00ABA9;}
+.contact__marker{color: #fff;}
+.contact__content__color{color: #fff;}
+.contact__map{width: 676px; height: 208px; border: 1px solid #fff;}
+.section__four{padding-bottom: 37px;}
+.contact__address__name{border-bottom: 1px solid #fff;margin-bottom: 10px;}
+.contact__address__name__title{color: #fff; font-size: 24px;}
+.contact p{color: #fff; font-size: 18px; font-family: 'open_sansregular';}
+.contact__phone a{font-size: 16px; color: #fff; text-align: right; display: block; text-decoration: none;}
+.contact__phone a:hover{opacity: 0.8;}
+/*footer*/
+.footer{overflow: hidden; background: #000; padding-top: 47px; padding-bottom: 50px;}
+.clearfix:after{content: ''; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden;}
+.footer__nav__logo{font-size: 24px; color: #fff; font-family: advent_probold; letter-spacing: 1px; text-transform: uppercase;}
+.footer__nav__logo:hover{text-decoration: none; color: #fff}
+.footer__logo{max-width: 250px; float: left;}
+.footer__logo__marker{color: #00ABA9;}
+.footer__nav__li{display: inline-block; padding: 0;margin: 0;}
+.footer__nav__link{font-size: 14px; color: #fff; padding: 0 10px 0 10px; border-left: 1px solid #fff;}
+.footer__nav{float: left; margin-bottom: 0; margin-left: 17px;}
+.icons{float: left; margin-left: 192px;}
+.footer__nav__link:hover{text-decoration: none; color: #fff;}
+.icons__icon{width: 25px; height: 25px; display: inline-block; cursor: pointer; background: url("../img/icons.png");}
+.icons__fb{background-position: 0 0 ;}
+.icons__twitter{background-position: -30px 0 ;}
+.icons__youtube{background-position: -60px 0;}
+.icons__email{background-position: -90px 0;}
+.icons__mail{background-position: -120px 0;}
+.icons__icon:hover{opacity: 0.8;}
+.copyright{float: right;}
+.copyright__title{font-size: 14px; color: #fff; margin: 0; text-align: right; }
+.copyright__company{color: #00ABA9; font-size:13px;}
+.copyright__company:hover{text-decoration: none; color: #00aba9;}
+
+
+@media screen and (max-width:1280px){.slider__title{font-size: 50px;}}
+@media screen and (max-width:1024px){.slider__title{font-size: 40px;}.contact__map{margin: 0 auto;}.footer__logo,.footer__nav{display: none;}.blog__news__box2{display: block; margin: 15px auto;}.blog__news__box1{display: block; margin: 0 auto;}.icons{margin: 0; display: block; text-align: center; float: none;}.copyright{float: none;}.copyright__title{text-align: center;} .basic__width{max-width: 960px;}.contact__map{margin-bottom: 50px;}.col-md-6 {width: 49%;}.contact__address__name__title{margin-top:20px; }}
+@media screen and (max-width:980px){.basic__width{max-width: 900px;} body{font-size:16px;}}
+@media screen and (max-width:960px){.contact__address{margin: 0 auto;}.slider__title{display: none;}}
+@media screen and (max-width:767px){.nav__logo{float: none;}.nav__logo img{display: block; margin: 0 auto 10px;}.nav__menu{display: none;}.some__service{margin: 10px auto;}}
+@media screen and (max-width:639px){.regular, .slider{display: none;}.basic__width{max-width: 600px;}}

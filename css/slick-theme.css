@@ -1,0 +1,44 @@
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 41%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #00aba9;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.slick-prev {
+    left: 10px;
+    z-index: 50;
+}
+
+.slick-prev:before {
+    content: '\2039';
+
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-next:before {
+    content: '\203A';
+}
+
+
+
+
